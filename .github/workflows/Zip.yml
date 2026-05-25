@@ -2,7 +2,7 @@ name: Unzip and Sync
 on:
   push:
     paths:
-      - 'geekhoot.zip' # Runs only when the zip file is updated
+      - 'Geekhoot-main.zip' # Runs only when the zip file is updated
   workflow_dispatch:      # Allows you to run it manually
 
 jobs:
@@ -19,7 +19,7 @@ jobs:
       - name: Extract Zip
         run: |
           # Define variables
-          ZIP_FILE="geekhoot.zip"
+          ZIP_FILE="Geekhoot-main.zip"
           
           echo "📂 Extracting $ZIP_FILE..."
           unzip -o $ZIP_FILE -d .
