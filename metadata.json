@@ -1,0 +1,6 @@
+{
+  "name": "Geekhoot",
+  "description": "Modern e-commerce platform with WhatsApp-based ordering, secure authentication, and admin dashboard.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
